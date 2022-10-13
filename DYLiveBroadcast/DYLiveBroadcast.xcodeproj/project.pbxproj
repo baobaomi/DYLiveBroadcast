@@ -7,62 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35F66D6128F46A9A008FA538 /* DYLiveBroadcastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F66D6028F46A9A008FA538 /* DYLiveBroadcastApp.swift */; };
-		35F66D6328F46A9A008FA538 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F66D6228F46A9A008FA538 /* ContentView.swift */; };
-		35F66D6528F46A9D008FA538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F66D6428F46A9D008FA538 /* Assets.xcassets */; };
-		35F66D6828F46A9D008FA538 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F66D6728F46A9D008FA538 /* Preview Assets.xcassets */; };
-		35F66D7228F46A9D008FA538 /* DYLiveBroadcastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F66D7128F46A9D008FA538 /* DYLiveBroadcastTests.swift */; };
-		35F66D7C28F46A9D008FA538 /* DYLiveBroadcastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F66D7B28F46A9D008FA538 /* DYLiveBroadcastUITests.swift */; };
-		35F66D7E28F46A9D008FA538 /* DYLiveBroadcastUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F66D7D28F46A9D008FA538 /* DYLiveBroadcastUITestsLaunchTests.swift */; };
+		35C1399328F85B220046696E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C1399228F85B220046696E /* AppDelegate.swift */; };
+		35C1399528F85B220046696E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C1399428F85B220046696E /* SceneDelegate.swift */; };
+		35C1399728F85B220046696E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C1399628F85B220046696E /* ViewController.swift */; };
+		35C1399A28F85B220046696E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C1399828F85B220046696E /* Main.storyboard */; };
+		35C1399C28F85B240046696E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C1399B28F85B240046696E /* Assets.xcassets */; };
+		35C1399F28F85B250046696E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C1399D28F85B250046696E /* LaunchScreen.storyboard */; };
+		35C139AA28F85B250046696E /* DYLiveBroadcastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C139A928F85B250046696E /* DYLiveBroadcastTests.swift */; };
+		35C139B428F85B250046696E /* DYLiveBroadcastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C139B328F85B250046696E /* DYLiveBroadcastUITests.swift */; };
+		35C139B628F85B250046696E /* DYLiveBroadcastUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C139B528F85B250046696E /* DYLiveBroadcastUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		35F66D6E28F46A9D008FA538 /* PBXContainerItemProxy */ = {
+		35C139A628F85B250046696E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 35F66D5528F46A9A008FA538 /* Project object */;
+			containerPortal = 35C1398728F85B220046696E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 35F66D5C28F46A9A008FA538;
+			remoteGlobalIDString = 35C1398E28F85B220046696E;
 			remoteInfo = DYLiveBroadcast;
 		};
-		35F66D7828F46A9D008FA538 /* PBXContainerItemProxy */ = {
+		35C139B028F85B250046696E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 35F66D5528F46A9A008FA538 /* Project object */;
+			containerPortal = 35C1398728F85B220046696E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 35F66D5C28F46A9A008FA538;
+			remoteGlobalIDString = 35C1398E28F85B220046696E;
 			remoteInfo = DYLiveBroadcast;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		35A8FC9728F6F50A009994B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		35F66D5D28F46A9A008FA538 /* DYLiveBroadcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYLiveBroadcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		35F66D6028F46A9A008FA538 /* DYLiveBroadcastApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYLiveBroadcastApp.swift; sourceTree = "<group>"; };
-		35F66D6228F46A9A008FA538 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		35F66D6428F46A9D008FA538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		35F66D6728F46A9D008FA538 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		35F66D6D28F46A9D008FA538 /* DYLiveBroadcastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYLiveBroadcastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		35F66D7128F46A9D008FA538 /* DYLiveBroadcastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYLiveBroadcastTests.swift; sourceTree = "<group>"; };
-		35F66D7728F46A9D008FA538 /* DYLiveBroadcastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYLiveBroadcastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		35F66D7B28F46A9D008FA538 /* DYLiveBroadcastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYLiveBroadcastUITests.swift; sourceTree = "<group>"; };
-		35F66D7D28F46A9D008FA538 /* DYLiveBroadcastUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYLiveBroadcastUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		35C1398F28F85B220046696E /* DYLiveBroadcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYLiveBroadcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C1399228F85B220046696E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35C1399428F85B220046696E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		35C1399628F85B220046696E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		35C1399928F85B220046696E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35C1399B28F85B240046696E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35C1399E28F85B250046696E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35C139A028F85B250046696E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35C139A528F85B250046696E /* DYLiveBroadcastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYLiveBroadcastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C139A928F85B250046696E /* DYLiveBroadcastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYLiveBroadcastTests.swift; sourceTree = "<group>"; };
+		35C139AF28F85B250046696E /* DYLiveBroadcastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYLiveBroadcastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C139B328F85B250046696E /* DYLiveBroadcastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYLiveBroadcastUITests.swift; sourceTree = "<group>"; };
+		35C139B528F85B250046696E /* DYLiveBroadcastUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYLiveBroadcastUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		35F66D5A28F46A9A008FA538 /* Frameworks */ = {
+		35C1398C28F85B220046696E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35F66D6A28F46A9D008FA538 /* Frameworks */ = {
+		35C139A228F85B250046696E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35F66D7428F46A9D008FA538 /* Frameworks */ = {
+		35C139AC28F85B250046696E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,59 +76,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		35F66D5428F46A9A008FA538 = {
+		35C1398628F85B220046696E = {
 			isa = PBXGroup;
 			children = (
-				35F66D5F28F46A9A008FA538 /* DYLiveBroadcast */,
-				35F66D7028F46A9D008FA538 /* DYLiveBroadcastTests */,
-				35F66D7A28F46A9D008FA538 /* DYLiveBroadcastUITests */,
-				35F66D5E28F46A9A008FA538 /* Products */,
+				35C1399128F85B220046696E /* DYLiveBroadcast */,
+				35C139A828F85B250046696E /* DYLiveBroadcastTests */,
+				35C139B228F85B250046696E /* DYLiveBroadcastUITests */,
+				35C1399028F85B220046696E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		35F66D5E28F46A9A008FA538 /* Products */ = {
+		35C1399028F85B220046696E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				35F66D5D28F46A9A008FA538 /* DYLiveBroadcast.app */,
-				35F66D6D28F46A9D008FA538 /* DYLiveBroadcastTests.xctest */,
-				35F66D7728F46A9D008FA538 /* DYLiveBroadcastUITests.xctest */,
+				35C1398F28F85B220046696E /* DYLiveBroadcast.app */,
+				35C139A528F85B250046696E /* DYLiveBroadcastTests.xctest */,
+				35C139AF28F85B250046696E /* DYLiveBroadcastUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		35F66D5F28F46A9A008FA538 /* DYLiveBroadcast */ = {
+		35C1399128F85B220046696E /* DYLiveBroadcast */ = {
 			isa = PBXGroup;
 			children = (
-				35A8FC9728F6F50A009994B3 /* Info.plist */,
-				35F66D6028F46A9A008FA538 /* DYLiveBroadcastApp.swift */,
-				35F66D6228F46A9A008FA538 /* ContentView.swift */,
-				35F66D6428F46A9D008FA538 /* Assets.xcassets */,
-				35F66D6628F46A9D008FA538 /* Preview Content */,
+				35C1399228F85B220046696E /* AppDelegate.swift */,
+				35C1399428F85B220046696E /* SceneDelegate.swift */,
+				35C1399628F85B220046696E /* ViewController.swift */,
+				35C1399828F85B220046696E /* Main.storyboard */,
+				35C1399B28F85B240046696E /* Assets.xcassets */,
+				35C1399D28F85B250046696E /* LaunchScreen.storyboard */,
+				35C139A028F85B250046696E /* Info.plist */,
 			);
 			path = DYLiveBroadcast;
 			sourceTree = "<group>";
 		};
-		35F66D6628F46A9D008FA538 /* Preview Content */ = {
+		35C139A828F85B250046696E /* DYLiveBroadcastTests */ = {
 			isa = PBXGroup;
 			children = (
-				35F66D6728F46A9D008FA538 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		35F66D7028F46A9D008FA538 /* DYLiveBroadcastTests */ = {
-			isa = PBXGroup;
-			children = (
-				35F66D7128F46A9D008FA538 /* DYLiveBroadcastTests.swift */,
+				35C139A928F85B250046696E /* DYLiveBroadcastTests.swift */,
 			);
 			path = DYLiveBroadcastTests;
 			sourceTree = "<group>";
 		};
-		35F66D7A28F46A9D008FA538 /* DYLiveBroadcastUITests */ = {
+		35C139B228F85B250046696E /* DYLiveBroadcastUITests */ = {
 			isa = PBXGroup;
 			children = (
-				35F66D7B28F46A9D008FA538 /* DYLiveBroadcastUITests.swift */,
-				35F66D7D28F46A9D008FA538 /* DYLiveBroadcastUITestsLaunchTests.swift */,
+				35C139B328F85B250046696E /* DYLiveBroadcastUITests.swift */,
+				35C139B528F85B250046696E /* DYLiveBroadcastUITestsLaunchTests.swift */,
 			);
 			path = DYLiveBroadcastUITests;
 			sourceTree = "<group>";
@@ -132,13 +130,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		35F66D5C28F46A9A008FA538 /* DYLiveBroadcast */ = {
+		35C1398E28F85B220046696E /* DYLiveBroadcast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35F66D8128F46A9D008FA538 /* Build configuration list for PBXNativeTarget "DYLiveBroadcast" */;
+			buildConfigurationList = 35C139B928F85B250046696E /* Build configuration list for PBXNativeTarget "DYLiveBroadcast" */;
 			buildPhases = (
-				35F66D5928F46A9A008FA538 /* Sources */,
-				35F66D5A28F46A9A008FA538 /* Frameworks */,
-				35F66D5B28F46A9A008FA538 /* Resources */,
+				35C1398B28F85B220046696E /* Sources */,
+				35C1398C28F85B220046696E /* Frameworks */,
+				35C1398D28F85B220046696E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -146,69 +144,69 @@
 			);
 			name = DYLiveBroadcast;
 			productName = DYLiveBroadcast;
-			productReference = 35F66D5D28F46A9A008FA538 /* DYLiveBroadcast.app */;
+			productReference = 35C1398F28F85B220046696E /* DYLiveBroadcast.app */;
 			productType = "com.apple.product-type.application";
 		};
-		35F66D6C28F46A9D008FA538 /* DYLiveBroadcastTests */ = {
+		35C139A428F85B250046696E /* DYLiveBroadcastTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35F66D8428F46A9D008FA538 /* Build configuration list for PBXNativeTarget "DYLiveBroadcastTests" */;
+			buildConfigurationList = 35C139BC28F85B250046696E /* Build configuration list for PBXNativeTarget "DYLiveBroadcastTests" */;
 			buildPhases = (
-				35F66D6928F46A9D008FA538 /* Sources */,
-				35F66D6A28F46A9D008FA538 /* Frameworks */,
-				35F66D6B28F46A9D008FA538 /* Resources */,
+				35C139A128F85B250046696E /* Sources */,
+				35C139A228F85B250046696E /* Frameworks */,
+				35C139A328F85B250046696E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				35F66D6F28F46A9D008FA538 /* PBXTargetDependency */,
+				35C139A728F85B250046696E /* PBXTargetDependency */,
 			);
 			name = DYLiveBroadcastTests;
 			productName = DYLiveBroadcastTests;
-			productReference = 35F66D6D28F46A9D008FA538 /* DYLiveBroadcastTests.xctest */;
+			productReference = 35C139A528F85B250046696E /* DYLiveBroadcastTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		35F66D7628F46A9D008FA538 /* DYLiveBroadcastUITests */ = {
+		35C139AE28F85B250046696E /* DYLiveBroadcastUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35F66D8728F46A9D008FA538 /* Build configuration list for PBXNativeTarget "DYLiveBroadcastUITests" */;
+			buildConfigurationList = 35C139BF28F85B250046696E /* Build configuration list for PBXNativeTarget "DYLiveBroadcastUITests" */;
 			buildPhases = (
-				35F66D7328F46A9D008FA538 /* Sources */,
-				35F66D7428F46A9D008FA538 /* Frameworks */,
-				35F66D7528F46A9D008FA538 /* Resources */,
+				35C139AB28F85B250046696E /* Sources */,
+				35C139AC28F85B250046696E /* Frameworks */,
+				35C139AD28F85B250046696E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				35F66D7928F46A9D008FA538 /* PBXTargetDependency */,
+				35C139B128F85B250046696E /* PBXTargetDependency */,
 			);
 			name = DYLiveBroadcastUITests;
 			productName = DYLiveBroadcastUITests;
-			productReference = 35F66D7728F46A9D008FA538 /* DYLiveBroadcastUITests.xctest */;
+			productReference = 35C139AF28F85B250046696E /* DYLiveBroadcastUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		35F66D5528F46A9A008FA538 /* Project object */ = {
+		35C1398728F85B220046696E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					35F66D5C28F46A9A008FA538 = {
+					35C1398E28F85B220046696E = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					35F66D6C28F46A9D008FA538 = {
+					35C139A428F85B250046696E = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 35F66D5C28F46A9A008FA538;
+						TestTargetID = 35C1398E28F85B220046696E;
 					};
-					35F66D7628F46A9D008FA538 = {
+					35C139AE28F85B250046696E = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 35F66D5C28F46A9A008FA538;
+						TestTargetID = 35C1398E28F85B220046696E;
 					};
 				};
 			};
-			buildConfigurationList = 35F66D5828F46A9A008FA538 /* Build configuration list for PBXProject "DYLiveBroadcast" */;
+			buildConfigurationList = 35C1398A28F85B220046696E /* Build configuration list for PBXProject "DYLiveBroadcast" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,36 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 35F66D5428F46A9A008FA538;
-			productRefGroup = 35F66D5E28F46A9A008FA538 /* Products */;
+			mainGroup = 35C1398628F85B220046696E;
+			productRefGroup = 35C1399028F85B220046696E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				35F66D5C28F46A9A008FA538 /* DYLiveBroadcast */,
-				35F66D6C28F46A9D008FA538 /* DYLiveBroadcastTests */,
-				35F66D7628F46A9D008FA538 /* DYLiveBroadcastUITests */,
+				35C1398E28F85B220046696E /* DYLiveBroadcast */,
+				35C139A428F85B250046696E /* DYLiveBroadcastTests */,
+				35C139AE28F85B250046696E /* DYLiveBroadcastUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		35F66D5B28F46A9A008FA538 /* Resources */ = {
+		35C1398D28F85B220046696E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35F66D6828F46A9D008FA538 /* Preview Assets.xcassets in Resources */,
-				35F66D6528F46A9D008FA538 /* Assets.xcassets in Resources */,
+				35C1399F28F85B250046696E /* LaunchScreen.storyboard in Resources */,
+				35C1399C28F85B240046696E /* Assets.xcassets in Resources */,
+				35C1399A28F85B220046696E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35F66D6B28F46A9D008FA538 /* Resources */ = {
+		35C139A328F85B250046696E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35F66D7528F46A9D008FA538 /* Resources */ = {
+		35C139AD28F85B250046696E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,49 +254,69 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		35F66D5928F46A9A008FA538 /* Sources */ = {
+		35C1398B28F85B220046696E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35F66D6328F46A9A008FA538 /* ContentView.swift in Sources */,
-				35F66D6128F46A9A008FA538 /* DYLiveBroadcastApp.swift in Sources */,
+				35C1399728F85B220046696E /* ViewController.swift in Sources */,
+				35C1399328F85B220046696E /* AppDelegate.swift in Sources */,
+				35C1399528F85B220046696E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35F66D6928F46A9D008FA538 /* Sources */ = {
+		35C139A128F85B250046696E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35F66D7228F46A9D008FA538 /* DYLiveBroadcastTests.swift in Sources */,
+				35C139AA28F85B250046696E /* DYLiveBroadcastTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35F66D7328F46A9D008FA538 /* Sources */ = {
+		35C139AB28F85B250046696E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35F66D7C28F46A9D008FA538 /* DYLiveBroadcastUITests.swift in Sources */,
-				35F66D7E28F46A9D008FA538 /* DYLiveBroadcastUITestsLaunchTests.swift in Sources */,
+				35C139B428F85B250046696E /* DYLiveBroadcastUITests.swift in Sources */,
+				35C139B628F85B250046696E /* DYLiveBroadcastUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		35F66D6F28F46A9D008FA538 /* PBXTargetDependency */ = {
+		35C139A728F85B250046696E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 35F66D5C28F46A9A008FA538 /* DYLiveBroadcast */;
-			targetProxy = 35F66D6E28F46A9D008FA538 /* PBXContainerItemProxy */;
+			target = 35C1398E28F85B220046696E /* DYLiveBroadcast */;
+			targetProxy = 35C139A628F85B250046696E /* PBXContainerItemProxy */;
 		};
-		35F66D7928F46A9D008FA538 /* PBXTargetDependency */ = {
+		35C139B128F85B250046696E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 35F66D5C28F46A9A008FA538 /* DYLiveBroadcast */;
-			targetProxy = 35F66D7828F46A9D008FA538 /* PBXContainerItemProxy */;
+			target = 35C1398E28F85B220046696E /* DYLiveBroadcast */;
+			targetProxy = 35C139B028F85B250046696E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		35C1399828F85B220046696E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35C1399928F85B220046696E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35C1399D28F85B250046696E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35C1399E28F85B250046696E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		35F66D7F28F46A9D008FA538 /* Debug */ = {
+		35C139B728F85B250046696E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,7 +377,7 @@
 			};
 			name = Debug;
 		};
-		35F66D8028F46A9D008FA538 /* Release */ = {
+		35C139B828F85B250046696E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -413,26 +432,21 @@
 			};
 			name = Release;
 		};
-		35F66D8228F46A9D008FA538 /* Debug */ = {
+		35C139BA28F85B250046696E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DYLiveBroadcast/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DYLiveBroadcast/Info.plist;
-				INFOPLIST_KEY_NSMainNibFile = Main;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,26 +460,21 @@
 			};
 			name = Debug;
 		};
-		35F66D8328F46A9D008FA538 /* Release */ = {
+		35C139BB28F85B250046696E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DYLiveBroadcast/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DYLiveBroadcast/Info.plist;
-				INFOPLIST_KEY_NSMainNibFile = Main;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -479,7 +488,7 @@
 			};
 			name = Release;
 		};
-		35F66D8528F46A9D008FA538 /* Debug */ = {
+		35C139BD28F85B250046696E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -498,7 +507,7 @@
 			};
 			name = Debug;
 		};
-		35F66D8628F46A9D008FA538 /* Release */ = {
+		35C139BE28F85B250046696E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -517,7 +526,7 @@
 			};
 			name = Release;
 		};
-		35F66D8828F46A9D008FA538 /* Debug */ = {
+		35C139C028F85B250046696E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -534,7 +543,7 @@
 			};
 			name = Debug;
 		};
-		35F66D8928F46A9D008FA538 /* Release */ = {
+		35C139C128F85B250046696E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -554,43 +563,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		35F66D5828F46A9A008FA538 /* Build configuration list for PBXProject "DYLiveBroadcast" */ = {
+		35C1398A28F85B220046696E /* Build configuration list for PBXProject "DYLiveBroadcast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35F66D7F28F46A9D008FA538 /* Debug */,
-				35F66D8028F46A9D008FA538 /* Release */,
+				35C139B728F85B250046696E /* Debug */,
+				35C139B828F85B250046696E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35F66D8128F46A9D008FA538 /* Build configuration list for PBXNativeTarget "DYLiveBroadcast" */ = {
+		35C139B928F85B250046696E /* Build configuration list for PBXNativeTarget "DYLiveBroadcast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35F66D8228F46A9D008FA538 /* Debug */,
-				35F66D8328F46A9D008FA538 /* Release */,
+				35C139BA28F85B250046696E /* Debug */,
+				35C139BB28F85B250046696E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35F66D8428F46A9D008FA538 /* Build configuration list for PBXNativeTarget "DYLiveBroadcastTests" */ = {
+		35C139BC28F85B250046696E /* Build configuration list for PBXNativeTarget "DYLiveBroadcastTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35F66D8528F46A9D008FA538 /* Debug */,
-				35F66D8628F46A9D008FA538 /* Release */,
+				35C139BD28F85B250046696E /* Debug */,
+				35C139BE28F85B250046696E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35F66D8728F46A9D008FA538 /* Build configuration list for PBXNativeTarget "DYLiveBroadcastUITests" */ = {
+		35C139BF28F85B250046696E /* Build configuration list for PBXNativeTarget "DYLiveBroadcastUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35F66D8828F46A9D008FA538 /* Debug */,
-				35F66D8928F46A9D008FA538 /* Release */,
+				35C139C028F85B250046696E /* Debug */,
+				35C139C128F85B250046696E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 35F66D5528F46A9A008FA538 /* Project object */;
+	rootObject = 35C1398728F85B220046696E /* Project object */;
 }
